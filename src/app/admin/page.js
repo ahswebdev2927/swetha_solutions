@@ -59,7 +59,7 @@ export default function AdminDashboardPage() {
   const [blogSummary, setBlogSummary] = useState("");
   const [blogContent, setBlogContent] = useState("");
   const [blogCategory, setBlogCategory] = useState("Technology");
-  const [blogAuthor, setBlogAuthor] = useState("Ananya Hi Solutions");
+  const [blogAuthor, setBlogAuthor] = useState("Swetha Solutions");
   const [blogCoverImage, setBlogCoverImage] = useState("");
   const [blogMetaTitle, setBlogMetaTitle] = useState("");
   const [blogMetaDescription, setBlogMetaDescription] = useState("");
@@ -72,8 +72,8 @@ export default function AdminDashboardPage() {
 
   // Authorization Check
   useEffect(() => {
-    const token = localStorage.getItem("ananya_admin_token");
-    if (token !== "ananya-secure-admin-token-2026") {
+    const token = localStorage.getItem("swetha_admin_token");
+    if (token !== "swetha-secure-admin-token-2026") {
       router.push("/admin/login");
     } else {
       setIsAuthorized(true);
@@ -132,7 +132,7 @@ export default function AdminDashboardPage() {
 
   // Helper for auth headers
   const getAuthHeaders = () => {
-    const token = localStorage.getItem("ananya_admin_token");
+    const token = localStorage.getItem("swetha_admin_token");
     return {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
@@ -178,7 +178,7 @@ export default function AdminDashboardPage() {
 
   // Logout handler
   const handleLogout = () => {
-    localStorage.removeItem("ananya_admin_token");
+    localStorage.removeItem("swetha_admin_token");
     router.push("/admin/login");
   };
 
@@ -538,7 +538,7 @@ export default function AdminDashboardPage() {
         setBlogSummary(item.metaDescription || item.summary || "");
         setBlogContent(item.content || "");
         setBlogCategory(item.category || "Technology");
-        setBlogAuthor(item.author || "Ananya Hi Solutions");
+        setBlogAuthor(item.author || "Swetha Solutions");
         setBlogCoverImage(item.coverImage || "");
         setBlogMetaTitle(item.metaTitle || item.title || "");
         setBlogMetaDescription(item.metaDescription || item.summary || "");
@@ -576,7 +576,7 @@ export default function AdminDashboardPage() {
         setBlogSummary("");
         setBlogContent("");
         setBlogCategory("Technology");
-        setBlogAuthor("Ananya Hi Solutions");
+        setBlogAuthor("Swetha Solutions");
         setBlogCoverImage("");
         setBlogMetaTitle("");
         setBlogMetaDescription("");
@@ -718,7 +718,7 @@ export default function AdminDashboardPage() {
     formData.append("type", "blog");
     formData.append("blogId", blogId || `post-${Date.now()}`);
 
-    const token = localStorage.getItem("ananya_admin_token");
+    const token = localStorage.getItem("swetha_admin_token");
     const xhr = new XMLHttpRequest();
 
     xhr.upload.onprogress = (event) => {
@@ -804,7 +804,7 @@ export default function AdminDashboardPage() {
         summary: blogMetaDescription || blogSummary || blogTitle,
         content: blogContent,
         category: blogCategory,
-        author: blogAuthor || "Ananya Hi Solutions",
+        author: blogAuthor || "Swetha Solutions",
         coverImage: blogCoverImage,
         metaTitle: blogMetaTitle || blogTitle,
         metaDescription: blogMetaDescription || blogSummary,
@@ -874,8 +874,8 @@ export default function AdminDashboardPage() {
       <aside className="admin-sidebar">
         <div className="admin-sidebar-header">
           <img
-            src="/logo.png"
-            alt="Ananya Hi Solutions"
+            src="/swetha_solutions_logo.png"
+            alt="Swetha Solutions"
             className="admin-sidebar-logo"
           />
           <span className="admin-sidebar-badge">CONTROL PANEL</span>
@@ -967,7 +967,7 @@ export default function AdminDashboardPage() {
                   <div className="welcome-text">
                     <h1>Welcome back, Web Expert! 👋</h1>
                     <p>
-                      Easily edit, add, or delete the dynamic content on Ananya Hi Solutions homepage in real-time. No code-level changes needed.
+                      Easily edit, add, or delete the dynamic content on Swetha Solutions homepage in real-time. No code-level changes needed.
                     </p>
                   </div>
                   <div className="welcome-decor">📂</div>
@@ -1564,7 +1564,7 @@ export default function AdminDashboardPage() {
                                     const res = await fetch("/api/upload", {
                                       method: "POST",
                                       headers: {
-                                        Authorization: `Bearer ${localStorage.getItem("ananya_admin_token")}`
+                                        Authorization: `Bearer ${localStorage.getItem("swetha_admin_token")}`
                                       },
                                       body: formData
                                     });
@@ -1708,7 +1708,7 @@ export default function AdminDashboardPage() {
                                   const res = await fetch("/api/upload", {
                                     method: "POST",
                                     headers: {
-                                      Authorization: `Bearer ${localStorage.getItem("ananya_admin_token")}`
+                                      Authorization: `Bearer ${localStorage.getItem("swetha_admin_token")}`
                                     },
                                     body: formData
                                   });
@@ -2065,7 +2065,7 @@ export default function AdminDashboardPage() {
                           const res = await fetch("/api/upload", {
                             method: "POST",
                             headers: {
-                              Authorization: `Bearer ${localStorage.getItem("ananya_admin_token")}`
+                              Authorization: `Bearer ${localStorage.getItem("swetha_admin_token")}`
                             },
                             body: formData
                           });

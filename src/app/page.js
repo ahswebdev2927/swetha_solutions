@@ -10,8 +10,8 @@ import GlobalFooter from "./components/GlobalFooter";
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "42px",
@@ -530,8 +530,8 @@ const specializationCategories = [
       </svg>
     ),
     count: 14,
-    color: "#2563EB",
-    glowColor: "rgba(37, 99, 235, 0.4)",
+    color: "#E75D5F",
+    glowColor: "rgba(231, 93, 95, 0.4)",
     tools: [
       { name: "Google Ads", logo: "/logos/Google_Ads_logo.png" },
       { name: "Meta Ads", logo: "/logos/meta_ads_logo.jpg" },
@@ -782,7 +782,7 @@ export default function Home() {
       // First visit in session
       sessionStorage.setItem("ahs_splash_shown", "true");
 
-      // Start fading out after 3.4 seconds (0.5s after Ananya Hi Solutions text fully renders)
+      // Start fading out after 3.4 seconds (0.5s after Swetha Solutions text fully renders)
       const fadeTimer = setTimeout(() => {
         setFadeSplash(true);
       }, 3400);
@@ -1089,7 +1089,7 @@ export default function Home() {
       name: "sunspringwellnessspa",
       role: "Spa & Wellness Brand",
       stars: 5,
-      text: "Ananya Hi Solutions is hands down the best AI digital marketing and automation service provider in Hyderabad. Their team doesn't just run ads; they use advanced automation to streamline lead generation and ROI. Since partnering with them, our digital presence has grown significantly. Highly recommended for any business looking for data-driven results",
+      text: "Swetha Solutions is hands down the best AI digital marketing and automation service provider in Hyderabad. Their team doesn't just run ads; they use advanced automation to streamline lead generation and ROI. Since partnering with them, our digital presence has grown significantly. Highly recommended for any business looking for data-driven results",
       initials: "SS",
     },
     {
@@ -1126,15 +1126,15 @@ export default function Home() {
   const [activeFaq, setActiveFaq] = useState(0);
   const faqs = [
     {
-      q: "What services does Ananya Hi Solutions provide in Hyderabad?",
-      a: "Ananya Hi Solutions offers comprehensive digital services including website design and development, digital marketing (SEO, PPC, social media), mobile application development, e-commerce solutions, video production, and custom software development. We provide end-to-end digital transformation solutions for businesses of all sizes.",
+      q: "What services does Swetha Solutions provide in Hyderabad?",
+      a: "Swetha Solutions offers comprehensive digital services including website design and development, digital marketing (SEO, PPC, social media), mobile application development, e-commerce solutions, video production, and custom software development. We provide end-to-end digital transformation solutions for businesses of all sizes.",
     },
     {
-      q: "How does Ananya Hi Solutions ensure quality in digital marketing campaigns?",
+      q: "How does Swetha Solutions ensure quality in digital marketing campaigns?",
       a: "We employ data-driven strategies with continuous monitoring and optimization. Our certified digital marketing experts use advanced analytics, A/B testing, and industry-leading tools to track KPIs, measure ROI, and refine campaigns for maximum performance. We provide transparent monthly reports showing measurable results.",
     },
     {
-      q: "What makes Ananya Hi Solutions different from other digital agencies in Hyderabad?",
+      q: "What makes Swetha Solutions different from other digital agencies in Hyderabad?",
       a: "Our key differentiators include 10+ years of proven experience, a team of certified experts, integrated service offerings under one roof, customized solutions rather than templates, transparent pricing, dedicated account management, and a proven track record of delivering measurable ROI for clients across diverse industries.",
     },
     {
@@ -1142,7 +1142,7 @@ export default function Home() {
       a: "Project timelines vary based on complexity and requirements. A standard business website takes 4-6 weeks, while complex e-commerce platforms or custom web applications may take 8-12 weeks. We provide detailed project timelines during consultation and maintain regular communication throughout the development process.",
     },
     {
-      q: "What industries does Ananya Hi Solutions specialize in serving?",
+      q: "What industries does Swetha Solutions specialize in serving?",
       a: "We have extensive experience serving diverse industries including e-commerce, healthcare, education, real estate, manufacturing, finance, technology startups, hospitality, and professional services. Our adaptable approach allows us to understand unique industry challenges and deliver tailored solutions that drive results in any sector.",
     },
   ];
@@ -1170,11 +1170,11 @@ export default function Home() {
               const travelY = `${112 + ((i * 1.5) % 6)}vh`;
 
               const NEON_COLORS = [
-                "#0f75bc",
+                "#E75D5F",
                 "#10b981",
                 "#f58220",
                 "#a855f7",
-                "#06b6d4",
+                "#00484B",
               ];
               const neonColor = NEON_COLORS[i % NEON_COLORS.length];
 
@@ -1211,7 +1211,7 @@ export default function Home() {
           <div className="splash-content">
             <h2 className="splash-welcome-text">Welcome to</h2>
             <h1 className="splash-brand-title">
-              <span>Ananya Hi</span> Solutions
+              <span>Swetha</span> Solutions
             </h1>
             <div className="splash-line"></div>
           </div>
@@ -1356,7 +1356,7 @@ export default function Home() {
                 <path
                   d="M -2 -9 L 8 0 L -2 9"
                   fill="none"
-                  stroke="#38bdf8"
+                  stroke="#00484B"
                   strokeWidth="4"
                   strokeLinecap="round"
                   strokeLinejoin="round"

@@ -8,8 +8,8 @@ import Header from "../components/Header";
 function FooterLogo() {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       style={{
         height: "42px",
         width: "auto",
@@ -404,7 +404,7 @@ export default function PackagesPage() {
               </li>
               <li className="footer-contact-item">
                 <span className="footer-contact-icon">✉️</span>
-                <span>info@ananyahisolutions.com</span>
+                <span>info@swethasolutions.com</span>
               </li>
             </ul>
           </div>
@@ -413,7 +413,7 @@ export default function PackagesPage() {
         <div className="footer-divider" />
         
         <div className="footer-bottom">
-          <p>© 2026 Ananya Hi Solutions. All Rights Reserved.</p>
+          <p>© 2026 Swetha Solutions. All Rights Reserved.</p>
         </div>
       </footer>
 
@@ -470,7 +470,7 @@ export default function PackagesPage() {
               alignItems: "center", 
               gap: "10px", 
               padding: "16px 24px", 
-              background: "#0f75bc", 
+              background: "#E75D5F", 
               border: "none", 
               borderRadius: "50px", 
               color: "#ffffff", 

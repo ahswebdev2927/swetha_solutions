@@ -80,7 +80,7 @@ Inquiry Details:
   "${message}"
 
 Best Regards,
-Ananya Hi Solutions Support System`,
+Swetha Solutions Support System`,
         });
 
         emailSent = true;

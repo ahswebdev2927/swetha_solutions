@@ -12,8 +12,8 @@ const UNIFORM_FONT_STACK = "'Times New Roman', Times, Baskerville, Georgia, seri
 function FooterLogo() {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       style={{
         height: "42px",
         width: "auto",
@@ -52,7 +52,7 @@ function InfoTooltip({ text }) {
         height="16"
         viewBox="0 0 24 24"
         fill="none"
-        stroke={visible ? "#0f75bc" : "#64748b"}
+        stroke={visible ? "#E75D5F" : "#64748b"}
         strokeWidth="2.2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -674,8 +674,8 @@ export default function PackageComparePage() {
       <Header activePage="packages" />
 
       {/* 2. Hero Header */}
-      <section className="page-hero" style={{ padding: "80px 0 60px 0", background: "linear-gradient(135deg, #0f75bc 0%, #1d4ed8 100%)", color: "#ffffff", textAlign: "center", position: "relative", overflow: "hidden" }}>
-        <div className="page-hero-overlay" style={{ position: "absolute", inset: 0, background: "rgba(15, 117, 188, 0.05)", mixBlendMode: "overlay" }} />
+      <section className="page-hero" style={{ padding: "80px 0 60px 0", background: "linear-gradient(135deg, #00484B 0%, #E75D5F 100%)", color: "#ffffff", textAlign: "center", position: "relative", overflow: "hidden" }}>
+        <div className="page-hero-overlay" style={{ position: "absolute", inset: 0, background: "rgba(231, 93, 95, 0.05)", mixBlendMode: "overlay" }} />
         <div className="container" style={{ position: "relative", zIndex: 2 }}>
           <span style={{ fontSize: "0.85rem", fontWeight: "800", color: "#f58220", textTransform: "uppercase", tracking: "wider", display: "block", marginBottom: "8px" }}>Interactive Plan Matrix</span>
           <h1 style={{ fontSize: "2.75rem", fontWeight: "800", marginBottom: "12px", fontFamily: "var(--font-headings)", color: "#ffffff" }}>Combo Plans Builder</h1>
@@ -691,7 +691,7 @@ export default function PackageComparePage() {
           
           {loading ? (
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", minHeight: "300px" }}>
-              <div style={{ width: "40px", height: "40px", border: "4px solid rgba(15, 117, 188, 0.1)", borderTopColor: "#0f75bc", borderRadius: "50%", animation: "spin 1s linear infinite" }} />
+              <div style={{ width: "40px", height: "40px", border: "4px solid rgba(231, 93, 95, 0.1)", borderTopColor: "#E75D5F", borderRadius: "50%", animation: "spin 1s linear infinite" }} />
             </div>
           ) : (
             <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
@@ -699,7 +699,7 @@ export default function PackageComparePage() {
               {/* Toolbar Actions */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "16px" }}>
                 <Link href="/packages">
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#0f75bc", fontWeight: "700", fontSize: "0.95rem", cursor: "pointer", textDecoration: "none" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", color: "#E75D5F", fontWeight: "700", fontSize: "0.95rem", cursor: "pointer", textDecoration: "none" }}>
                     ← Back to Packages List
                   </span>
                 </Link>
@@ -834,8 +834,8 @@ export default function PackageComparePage() {
                                 </div>
                                 <div style={{ height: "1px", background: "#e2e8f0", margin: "6px 0" }} />
                                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "1rem", fontWeight: "800" }}>
-                                  <span style={{ color: "#0f75bc" }}>Grand Total:</span>
-                                  <span style={{ color: "#0f75bc" }}>₹{grandTotal.toLocaleString("en-IN")}</span>
+                                  <span style={{ color: "#E75D5F" }}>Grand Total:</span>
+                                  <span style={{ color: "#E75D5F" }}>₹{grandTotal.toLocaleString("en-IN")}</span>
                                 </div>
                               </div>
                             </div>
@@ -856,7 +856,7 @@ export default function PackageComparePage() {
 
               {/* Combo Plans Summary Card */}
               <div style={{ background: "#ffffff", borderRadius: "16px", border: "1px solid #e2e8f0", padding: "30px", marginTop: "30px", boxShadow: "0 10px 25px -5px rgba(0,0,0,0.03)" }}>
-                <h3 style={{ fontFamily: "var(--font-headings)", fontSize: "1.4rem", fontWeight: "800", color: "#0f75bc", margin: "0 0 20px 0", display: "flex", alignItems: "center", gap: "10px" }}>
+                <h3 style={{ fontFamily: "var(--font-headings)", fontSize: "1.4rem", fontWeight: "800", color: "#E75D5F", margin: "0 0 20px 0", display: "flex", alignItems: "center", gap: "10px" }}>
                   <span>📦</span> Combo Price Breakdown
                 </h3>
                 
@@ -872,7 +872,7 @@ export default function PackageComparePage() {
                           <span style={{ fontSize: "1rem", fontWeight: "700", color: "#1e293b" }}>
                             {item.packageTitle} ({item.planName})
                           </span>
-                          <span style={{ fontSize: "1.05rem", color: "#0f75bc", fontWeight: "800" }}>
+                          <span style={{ fontSize: "1.05rem", color: "#E75D5F", fontWeight: "800" }}>
                             ₹{item.totalWithGst.toLocaleString("en-IN")}
                           </span>
                         </div>
@@ -960,7 +960,7 @@ export default function PackageComparePage() {
               </li>
               <li className="footer-contact-item">
                 <span className="footer-contact-icon">✉️</span>
-                <span>info@ananyahisolutions.com</span>
+                <span>info@swethasolutions.com</span>
               </li>
             </ul>
           </div>
@@ -969,7 +969,7 @@ export default function PackageComparePage() {
         <div className="footer-divider" />
         
         <div className="footer-bottom">
-          <p>© 2026 Ananya Hi Solutions. All Rights Reserved.</p>
+          <p>© 2026 Swetha Solutions. All Rights Reserved.</p>
         </div>
       </footer>
 
@@ -1008,7 +1008,7 @@ export default function PackageComparePage() {
           >
             <div className="modal-header" style={{ flexShrink: 0, padding: "20px 24px 14px 24px", borderBottom: "1px solid #f1f5f9", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <div>
-                <h3 style={{ fontSize: "1.2rem", fontWeight: "800", color: "#0f75bc", margin: 0 }}>Personalize Your Combo Proposal</h3>
+                <h3 style={{ fontSize: "1.2rem", fontWeight: "800", color: "#E75D5F", margin: 0 }}>Personalize Your Combo Proposal</h3>
                 <span style={{ fontSize: "0.75rem", fontWeight: "700", color: "#f58220", textTransform: "uppercase" }}>
                   Step {modalStep} of 2: {modalStep === 1 ? "Business Details" : "Plan Durations & GST"}
                 </span>
@@ -1106,7 +1106,7 @@ export default function PackageComparePage() {
                     <div key={idx} style={{ background: "#f8fafc", padding: "10px 12px", borderRadius: "8px", border: "1px solid #e2e8f0", display: "flex", flexDirection: "column", gap: "6px" }}>
                       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <span style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0f172a" }}>
-                          {item.packageTitle} <span style={{ color: "#0f75bc", fontWeight: "600" }}>({item.planName})</span>
+                          {item.packageTitle} <span style={{ color: "#E75D5F", fontWeight: "600" }}>({item.planName})</span>
                         </span>
                         <span style={{ fontSize: "0.8rem", color: "#64748b", fontWeight: "600" }}>
                           ₹{item.monthlyPrice.toLocaleString("en-IN")}{item.isWebsite ? "" : "/mo"}
@@ -1114,7 +1114,7 @@ export default function PackageComparePage() {
                       </div>
 
                       {item.isWebsite ? (
-                        <div style={{ background: "#eff6ff", color: "#1d4ed8", padding: "4px 8px", borderRadius: "4px", fontSize: "0.75rem", fontWeight: "700", display: "inline-block" }}>
+                        <div style={{ background: "#fef2f2", color: "#E75D5F", padding: "4px 8px", borderRadius: "4px", fontSize: "0.75rem", fontWeight: "700", display: "inline-block" }}>
                           ⚡ One-Time Payment (Website Package)
                         </div>
                       ) : (
@@ -1142,7 +1142,7 @@ export default function PackageComparePage() {
                     type="checkbox" 
                     checked={excludeGst} 
                     onChange={(e) => setExcludeGst(e.target.checked)} 
-                    style={{ width: "16px", height: "16px", accentColor: "#0f75bc", cursor: "pointer" }} 
+                    style={{ width: "16px", height: "16px", accentColor: "#E75D5F", cursor: "pointer" }} 
                   />
                   <span style={{ display: "inline-flex", alignItems: "center" }}>
                     Exclude GST from Proposal
@@ -1164,7 +1164,7 @@ export default function PackageComparePage() {
                           setDiscountError("");
                         }
                       }} 
-                      style={{ width: "16px", height: "16px", accentColor: "#0f75bc", cursor: "pointer" }} 
+                      style={{ width: "16px", height: "16px", accentColor: "#E75D5F", cursor: "pointer" }} 
                     />
                     <span style={{ display: "inline-flex", alignItems: "center" }}>
                       Apply Discount to Plan
@@ -1222,7 +1222,7 @@ export default function PackageComparePage() {
                                 padding: "6px 10px",
                                 borderRadius: "6px",
                                 border: "none",
-                                background: isDiscountVerified ? "#10b981" : "#0f75bc",
+                                background: isDiscountVerified ? "#10b981" : "#E75D5F",
                                 color: "#ffffff",
                                 fontWeight: "700",
                                 fontSize: "0.75rem",
@@ -1284,7 +1284,7 @@ export default function PackageComparePage() {
                       </div>
                     ))}
                   </div>
-                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.9rem", fontWeight: "800", color: "#0f75bc", paddingTop: "8px", marginTop: "4px", borderTop: "1px solid #cbd5e1" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.9rem", fontWeight: "800", color: "#E75D5F", paddingTop: "8px", marginTop: "4px", borderTop: "1px solid #cbd5e1" }}>
                     <span>Final Combo Grand Total:</span>
                     <span>
                       ₹{finalGrandTotal.toLocaleString("en-IN")}{" "}
@@ -1313,7 +1313,7 @@ export default function PackageComparePage() {
                   type="submit" 
                   form="combo-step1-form"
                   className="modal-btn btn-primary"
-                  style={{ cursor: "pointer", padding: "10px 20px", border: "none", background: "#0f75bc", borderRadius: "8px", color: "#ffffff", fontSize: "0.9rem", fontWeight: "700" }}
+                  style={{ cursor: "pointer", padding: "10px 20px", border: "none", background: "#E75D5F", borderRadius: "8px", color: "#ffffff", fontSize: "0.9rem", fontWeight: "700" }}
                 >
                   Next: Customization Options →
                 </button>
@@ -1330,7 +1330,7 @@ export default function PackageComparePage() {
                 <button 
                   type="button" 
                   onClick={handleFinalPdfGenerate}
-                  style={{ cursor: "pointer", padding: "10px 20px", border: "none", background: "#0f75bc", borderRadius: "8px", color: "#ffffff", fontSize: "0.85rem", fontWeight: "700" }}
+                  style={{ cursor: "pointer", padding: "10px 20px", border: "none", background: "#E75D5F", borderRadius: "8px", color: "#ffffff", fontSize: "0.85rem", fontWeight: "700" }}
                 >
                   Generate & Download PDF
                 </button>
@@ -1366,7 +1366,7 @@ export default function PackageComparePage() {
                   {/* Top Meta Header */}
                   <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px", color: "#64748b", marginBottom: "12px" }}>
                     <span>{downloadDateTime}</span>
-                    <span style={{ fontWeight: "700" }}>ANANYA HI SOLUTIONS — CUSTOM COMBO PROPOSAL</span>
+                    <span style={{ fontWeight: "700" }}>SWETHA SOLUTIONS — CUSTOM COMBO PROPOSAL</span>
                   </div>
 
                   {/* Render Cover Header if page 1 */}
@@ -1374,13 +1374,13 @@ export default function PackageComparePage() {
                     <>
                       {/* Banner */}
                       <div style={{
-                        background: "linear-gradient(135deg, #0f75bc 0%, #1d4ed8 100%)",
+                        background: "linear-gradient(135deg, #00484B 0%, #E75D5F 100%)",
                         padding: "20px 30px",
                         borderRadius: "10px",
                         color: "#ffffff"
                       }}>
                         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                          <h1 style={{ fontSize: "21px", fontWeight: "900", margin: 0, letterSpacing: "0.5px" }}>ANANYA HI SOLUTIONS</h1>
+                          <h1 style={{ fontSize: "21px", fontWeight: "900", margin: 0, letterSpacing: "0.5px" }}>SWETHA SOLUTIONS</h1>
                           <span style={{ fontSize: "11px", fontWeight: "700", background: "rgba(255, 255, 255, 0.15)", padding: "3px 10px", borderRadius: "20px" }}>
                             Proposal ID: #AHS-C-{proposalCount}
                           </span>
@@ -1395,7 +1395,7 @@ export default function PackageComparePage() {
                       {/* Info Grid */}
                       <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "30px", margin: "20px 0" }}>
                         <div>
-                          <span style={{ background: "#eff6ff", color: "#1e40af", padding: "3px 8px", borderRadius: "4px", fontSize: "9px", fontWeight: "800", textTransform: "uppercase", letterSpacing: "0.5px" }}>Prepared For</span>
+                          <span style={{ background: "#fef2f2", color: "#1e40af", padding: "3px 8px", borderRadius: "4px", fontSize: "9px", fontWeight: "800", textTransform: "uppercase", letterSpacing: "0.5px" }}>Prepared For</span>
                           <h2 style={{ fontSize: "17px", fontWeight: "800", color: "#0f172a", margin: "8px 0 2px 0" }}>{leadInfo.name}</h2>
                           {leadInfo.company && <p style={{ color: "#475569", fontSize: "12px", margin: "0 0 10px 0", fontWeight: "600" }}>{leadInfo.company}</p>}
                           <div style={{ fontSize: "11.5px", color: "#475569", lineHeight: "1.5" }}>
@@ -1405,13 +1405,13 @@ export default function PackageComparePage() {
                         </div>
                         <div>
                           <span style={{ background: "#f8fafc", color: "#475569", padding: "3px 8px", borderRadius: "4px", fontSize: "9px", fontWeight: "800", textTransform: "uppercase", letterSpacing: "0.5px" }}>Service Provider</span>
-                          <h3 style={{ fontSize: "14px", fontWeight: "800", color: "#0f172a", margin: "8px 0 2px 0" }}>Ananya Hi Solutions</h3>
+                          <h3 style={{ fontSize: "14px", fontWeight: "800", color: "#0f172a", margin: "8px 0 2px 0" }}>Swetha Solutions</h3>
                           <p style={{ color: "#475569", fontSize: "11px", margin: "0 0 8px 0", lineHeight: "1.3" }}>
                             Flat No. 502, Riviera Apartments, Dwarakapuri,<br />Punjagutta, Hyderabad, Telangana 500082
                           </p>
-                          <div style={{ fontSize: "11.5px", color: "#0f75bc", fontWeight: "700", lineHeight: "1.5" }}>
-                            <div>🌐 www.ananyahisolutions.com</div>
-                            <div>✉️ info@ananyahisolutions.com</div>
+                          <div style={{ fontSize: "11.5px", color: "#E75D5F", fontWeight: "700", lineHeight: "1.5" }}>
+                            <div>🌐 www.swethasolutions.com</div>
+                            <div>✉️ info@swethasolutions.com</div>
                             <div>📞 (+91) 76739-35353</div>
                           </div>
                         </div>
@@ -1446,11 +1446,11 @@ export default function PackageComparePage() {
                                   <tr key={cIdx} style={{ borderBottom: "1px solid #e2e8f0" }}>
                                     <td style={{ padding: "8px 10px", color: "#475569" }}>{cIdx + 1}</td>
                                     <td style={{ padding: "8px 10px", fontWeight: "700", color: "#0f172a" }}>
-                                      {cItem.packageTitle} — <span style={{ color: "#0f75bc" }}>{cItem.planName}</span>
+                                      {cItem.packageTitle} — <span style={{ color: "#E75D5F" }}>{cItem.planName}</span>
                                       {!cItem.isWebsite && cItem.durationMonths > 1 ? (
                                         <span style={{ fontSize: "10px", color: "#64748b", fontWeight: "600" }}> ({cItem.durationMonths} Mo)</span>
                                       ) : cItem.isWebsite ? (
-                                        <span style={{ fontSize: "10px", color: "#1d4ed8", fontWeight: "600" }}> (One-Time)</span>
+                                        <span style={{ fontSize: "10px", color: "#E75D5F", fontWeight: "600" }}> (One-Time)</span>
                                       ) : null}
                                     </td>
                                     <td style={{ padding: "8px 10px", textAlign: "right", color: "#334155" }}>₹{cItem.basePrice.toLocaleString("en-IN")}</td>
@@ -1458,7 +1458,7 @@ export default function PackageComparePage() {
                                       <td style={{ padding: "8px 10px", textAlign: "right", color: "#059669", fontWeight: "600" }}>- ₹{cItem.itemDiscount.toLocaleString("en-IN")}</td>
                                     )}
                                     <td style={{ padding: "8px 10px", textAlign: "right", color: "#334155" }}>{excludeGst ? "Excluded" : `₹${cItem.gstAmount.toLocaleString("en-IN")}`}</td>
-                                    <td style={{ padding: "8px 10px", textAlign: "right", fontWeight: "700", color: "#0f75bc" }}>₹{cItem.totalWithGst.toLocaleString("en-IN")}</td>
+                                    <td style={{ padding: "8px 10px", textAlign: "right", fontWeight: "700", color: "#E75D5F" }}>₹{cItem.totalWithGst.toLocaleString("en-IN")}</td>
                                   </tr>
                                 ))}
                               </tbody>
@@ -1497,7 +1497,7 @@ export default function PackageComparePage() {
                                 <li>Any extra work beyond this proposal will be charged extra.</li>
                                 <li>Campaign charges are not included.</li>
                                 <li>Quotation is valid for 15 days from the date of issue.</li>
-                                <li>All payments must be made directly to Ananya Hi Solutions / Swetha Solutions account only.</li>
+                                <li>All payments must be made directly to Swetha Solutions account only.</li>
                               </ul>
                             </div>
                           </div>
@@ -1511,7 +1511,7 @@ export default function PackageComparePage() {
                             {/* Plan title strip — only shown on first chunk */}
                             {item.isFirstChunk && (
                               <div style={{
-                                background: "#0f75bc",
+                                background: "#E75D5F",
                                 padding: "6px 12px",
                                 borderRadius: "4px",
                                 color: "#ffffff",
@@ -1541,7 +1541,7 @@ export default function PackageComparePage() {
                                 alignItems: "center",
                                 gap: "6px"
                               }}>
-                                <span style={{ fontSize: "10px", fontWeight: "700", color: "#0f75bc" }}>
+                                <span style={{ fontSize: "10px", fontWeight: "700", color: "#E75D5F" }}>
                                   {planIndex}. {item.packageTitle} — {item.planName} (Continued)
                                 </span>
                               </div>
@@ -1588,8 +1588,8 @@ export default function PackageComparePage() {
                                     )}
                                     <div style={{ height: "1px", background: "#cbd5e1", margin: "3px 0" }} />
                                     <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11.5px", fontWeight: "800" }}>
-                                      <span style={{ color: "#0f75bc" }}>Grand Total:</span>
-                                      <span style={{ color: "#0f75bc" }}>₹{item.totalWithGst.toLocaleString("en-IN")}</span>
+                                      <span style={{ color: "#E75D5F" }}>Grand Total:</span>
+                                      <span style={{ color: "#E75D5F" }}>₹{item.totalWithGst.toLocaleString("en-IN")}</span>
                                     </div>
                                   </div>
                                 </div>
@@ -1605,7 +1605,7 @@ export default function PackageComparePage() {
                 {/* Footer */}
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: "10px", color: "#94a3b8", borderTop: "1px solid #f1f5f9", paddingTop: "12px" }}>
                   <span>Page {pIdx + 1} of {proposalPages.length}</span>
-                  <span>Ananya Hi Solutions © 2026. All Rights Reserved.</span>
+                  <span>Swetha Solutions © 2026. All Rights Reserved.</span>
                 </div>
               </div>
             );

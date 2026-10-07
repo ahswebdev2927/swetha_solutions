@@ -110,7 +110,7 @@ Attachment:
 - Resume File: ${resumeFile.name} (${(resumeFile.size / 1024).toFixed(2)} KB)
 
 Best Regards,
-Ananya Hi Solutions Careers Portal`,
+Swetha Solutions Careers Portal`,
           attachments: [
             {
               filename: resumeFile.name,

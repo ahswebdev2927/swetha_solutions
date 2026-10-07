@@ -71,7 +71,7 @@ function InfoTooltip({ text }) {
         height="16"
         viewBox="0 0 24 24"
         fill="none"
-        stroke={visible ? "#2563eb" : "#64748b"}
+        stroke={visible ? "#E75D5F" : "#64748b"}
         strokeWidth="2.2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -364,7 +364,7 @@ function PlansContent() {
     if (typeof window !== "undefined") {
       const img = new Image();
       img.crossOrigin = "anonymous";
-      img.src = "/logo.png";
+      img.src = "/swetha_solutions_logo.png";
       img.onload = () => {
         const canvas = document.createElement("canvas");
         canvas.width = img.width;
@@ -503,7 +503,7 @@ function PlansContent() {
 
   const handleWhatsAppClick = (planName) => {
     const phoneNumber = "917673935353";
-    const message = `Hi Ananya Team, I'm interested in the ${planName} plan of ${packageTitle}.`;
+    const message = `Hi Swetha Team, I'm interested in the ${planName} plan of ${packageTitle}.`;
     const encodedMessage = encodeURIComponent(message);
     window.open(
       `https://wa.me/${phoneNumber}?text=${encodedMessage}`,
@@ -967,7 +967,7 @@ function PlansContent() {
                   >
                     <span>{downloadDateTime}</span>
                     <span style={{ fontWeight: "600" }}>
-                      Ananya Hi Solutions - Quotation Overview
+                      Swetha Solutions - Quotation Overview
                     </span>
                   </div>
 
@@ -975,7 +975,7 @@ function PlansContent() {
                   <div
                     style={{
                       background:
-                        "linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)",
+                        "linear-gradient(135deg, #00484B 0%, #E75D5F 100%)",
                       padding: "24px 30px",
                       borderRadius: "10px 10px 0 0",
                       color: "#ffffff",
@@ -995,7 +995,7 @@ function PlansContent() {
                           letterSpacing: "0.5px",
                         }}
                       >
-                        ANANYA HI SOLUTIONS
+                        SWETHA SOLUTIONS
                       </span>
                       <span style={{ fontSize: "14px", fontWeight: "700" }}>
                         Proposal ID: #{proposalCount + idx}
@@ -1129,7 +1129,7 @@ function PlansContent() {
                           margin: "0 0 8px 0",
                         }}
                       >
-                        Ananya Hi Solutions
+                        Swetha Solutions
                       </h3>
                       <p
                         style={{
@@ -1146,13 +1146,13 @@ function PlansContent() {
                       <div
                         style={{
                           fontSize: "13px",
-                          color: "#2563eb",
+                          color: "#E75D5F",
                           fontWeight: "600",
                           lineHeight: "1.6",
                         }}
                       >
-                        <div>🌐 www.ananyahisolutions.com</div>
-                        <div>✉️ info@ananyahisolutions.com</div>
+                        <div>🌐 www.swethasolutions.com</div>
+                        <div>✉️ info@swethasolutions.com</div>
                         <div>📞 (+91) 76739-35353</div>
                       </div>
                     </div>
@@ -1160,7 +1160,7 @@ function PlansContent() {
 
                   <div
                     style={{
-                      background: "#2563eb",
+                      background: "#E75D5F",
                       color: "#ffffff",
                       textAlign: "center",
                       padding: "12px",
@@ -1312,7 +1312,7 @@ function PlansContent() {
                             style={{
                               fontSize: "16px",
                               fontWeight: "700",
-                              color: "#2563eb",
+                              color: "#E75D5F",
                             }}
                           >
                             {plan.name.match(/^(.*?)\s*\(.*?\)$/)
@@ -1378,7 +1378,7 @@ function PlansContent() {
                         >
                           <div
                             style={{
-                              background: "#2563eb",
+                              background: "#E75D5F",
                               color: "#ffffff",
                               padding: "10px 20px",
                               display: "flex",
@@ -1545,8 +1545,7 @@ function PlansContent() {
                           <li style={{ display: "flex", gap: "8px" }}>
                             <span>•</span>
                             <span>
-                              All payments must be made directly to Ananya Hi
-                              Solutions / Swetha Solutions account only.
+                              All payments must be made directly to Swetha Solutions account only.
                             </span>
                           </li>
                         </ul>
@@ -1562,7 +1561,7 @@ function PlansContent() {
                         }}
                       >
                         If you have any questions about this quotation, please
-                        contact us. Thank you for choosing Ananya Hi Solutions —
+                        contact us. Thank you for choosing Swetha Solutions —
                         your growth partner in the digital world!
                       </p>
                     </div>
@@ -1624,7 +1623,7 @@ function PlansContent() {
                     >
                       <span>{downloadDateTime}</span>
                       <span style={{ fontWeight: "600" }}>
-                        Ananya Hi Solutions - Quotation Overview
+                        Swetha Solutions - Quotation Overview
                       </span>
                     </div>
 
@@ -1638,7 +1637,7 @@ function PlansContent() {
                       alignItems: "center",
                       gap: "6px"
                     }}>
-                      <span style={{ fontSize: "11px", fontWeight: "700", color: "#0f75bc" }}>
+                      <span style={{ fontSize: "11px", fontWeight: "700", color: "#E75D5F" }}>
                         {packageTitle} — {plan.name} (Continued)
                       </span>
                     </div>
@@ -1718,7 +1717,7 @@ function PlansContent() {
                           >
                             <div
                               style={{
-                                background: "#2563eb",
+                                background: "#E75D5F",
                                 color: "#ffffff",
                                 padding: "12px 24px",
                                 display: "flex",
@@ -1880,8 +1879,7 @@ function PlansContent() {
                             <li style={{ display: "flex", gap: "8px" }}>
                               <span>•</span>
                               <span>
-                                All payments must be made directly to Ananya Hi
-                                Solutions / Swetha Solutions account only.
+                                All payments must be made directly to Swetha Solutions account only.
                               </span>
                             </li>
                           </ul>
@@ -1897,7 +1895,7 @@ function PlansContent() {
                           }}
                         >
                           If you have any questions about this quotation, please
-                          contact us. Thank you for choosing Ananya Hi Solutions —
+                          contact us. Thank you for choosing Swetha Solutions —
                           your growth partner in the digital world!
                         </p>
                       </>
@@ -2004,7 +2002,7 @@ function PlansContent() {
                   style={{
                     flexShrink: 0,
                     background:
-                      "linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%)",
+                      "linear-gradient(135deg, #003638 0%, #00484B 50%, #E75D5F 100%)",
                     padding: "16px 24px",
                     color: "#ffffff",
                     display: "flex",
@@ -2134,7 +2132,7 @@ function PlansContent() {
                         style={{
                           width: "18px",
                           height: "18px",
-                          accentColor: "#2563eb",
+                          accentColor: "#E75D5F",
                           cursor: "pointer",
                         }}
                       />
@@ -2185,7 +2183,7 @@ function PlansContent() {
                         style={{
                           width: "18px",
                           height: "18px",
-                          accentColor: "#2563eb",
+                          accentColor: "#E75D5F",
                           cursor: "pointer",
                         }}
                       />
@@ -2277,7 +2275,7 @@ function PlansContent() {
                                   padding: "8px 12px",
                                   borderRadius: "6px",
                                   border: "none",
-                                  background: isDiscountVerified ? "#10b981" : "#2563eb",
+                                  background: isDiscountVerified ? "#10b981" : "#E75D5F",
                                   color: "#ffffff",
                                   fontWeight: "700",
                                   fontSize: "12px",
@@ -2319,7 +2317,7 @@ function PlansContent() {
                   >
                     <div
                       style={{
-                        backgroundColor: "#2563eb",
+                        backgroundColor: "#E75D5F",
                         color: "#ffffff",
                         padding: "10px 16px",
                         fontSize: "13px",
@@ -2477,7 +2475,7 @@ function PlansContent() {
                       padding: "10px 22px",
                       borderRadius: "8px",
                       border: "none",
-                      backgroundColor: "#2563eb",
+                      backgroundColor: "#E75D5F",
                       color: "#ffffff",
                       fontWeight: "700",
                       fontSize: "14px",

@@ -162,7 +162,7 @@ function ApplyFormContent() {
                   Our team will review your CV and contact you within 2-3 business days.
                 </p>
                 <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
-                  <Link href="/careers" style={{ padding: "12px 24px", borderRadius: "6px", background: "#0f75bc", color: "#ffffff", fontWeight: "700", fontSize: "14px", textDecoration: "none" }}>
+                  <Link href="/careers" style={{ padding: "12px 24px", borderRadius: "6px", background: "#E75D5F", color: "#ffffff", fontWeight: "700", fontSize: "14px", textDecoration: "none" }}>
                     Job Listings
                   </Link>
                   <Link href="/" style={{ padding: "12px 24px", borderRadius: "6px", border: "1.5px solid rgba(15, 117, 188, 0.15)", color: "#475569", fontWeight: "600", fontSize: "14px", textDecoration: "none" }}>
@@ -322,7 +322,7 @@ function ApplyFormContent() {
                       id="appl-message"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      placeholder="Please introduce yourself and explain why you are qualified to join Ananya Hi Solutions..."
+                      placeholder="Please introduce yourself and explain why you are qualified to join Swetha Solutions..."
                       rows="4"
                       style={{
                         width: "100%",
@@ -347,7 +347,7 @@ function ApplyFormContent() {
                     style={{
                       width: "100%",
                       padding: "14px",
-                      background: "linear-gradient(135deg, var(--primary-blue) 0%, #0d619c 100%)",
+                      background: "linear-gradient(135deg, var(--primary-blue) 0%, #d64a4c 100%)",
                       color: "#ffffff",
                       fontWeight: "700",
                       fontSize: "15px",

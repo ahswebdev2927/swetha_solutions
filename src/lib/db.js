@@ -8,7 +8,7 @@ let schemaInitialized = false;
 /**
  * Returns a singleton LibSQL client configured for:
  * - Production: Turso Cloud if TURSO_DATABASE_URL and TURSO_AUTH_TOKEN are provided
- * - Development: Local SQLite file (data/ananya.db)
+ * - Development: Local SQLite file (data/swetha.db)
  */
 export function getDbClient() {
   if (dbClient) return dbClient;
@@ -34,7 +34,7 @@ export function getDbClient() {
     if (!fs.existsSync(dataDir)) {
       fs.mkdirSync(dataDir, { recursive: true });
     }
-    const dbPath = path.join(dataDir, "ananya.db");
+    const dbPath = path.join(dataDir, "swetha.db");
     dbClient = createClient({
       url: `file:${dbPath}`,
     });
@@ -88,7 +88,7 @@ export async function initDatabaseSchema() {
       summary TEXT NOT NULL,
       content TEXT NOT NULL,
       category TEXT NOT NULL,
-      author TEXT DEFAULT 'Ananya Hi Solutions',
+      author TEXT DEFAULT 'Swetha Solutions',
       cover_image TEXT,
       meta_title TEXT,
       meta_description TEXT,

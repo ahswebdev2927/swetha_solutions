@@ -14,13 +14,13 @@ export async function POST(request) {
 
     // Load the credentials from the environment variable
     const admin_username = process.env.ADMIN_USERNAME || "admin";
-    const admin_password = process.env.ADMIN_PASSWORD || "ananya@2026";
+    const admin_password = process.env.ADMIN_PASSWORD || "swetha@2026";
 
     // Verify the credentials
     if (username === admin_username && password === admin_password) {
       return NextResponse.json({
         success: true,
-        token: "ananya-secure-admin-token-2026",
+        token: "swetha-secure-admin-token-2026",
         message: "Authentication successful",
       });
     }

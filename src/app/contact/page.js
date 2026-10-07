@@ -9,8 +9,8 @@ import Header from "../components/Header";
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "42px",
@@ -118,7 +118,7 @@ export default function ContactPage() {
       a: "Our standard office hours are Monday through Saturday, from 9:30 AM to 6:30 PM (IST). However, our digital support agents are available for critical queries online.",
     },
     {
-      q: "How long does it take for Ananya Hi Solutions to respond to a project inquiry?",
+      q: "How long does it take for Swetha Solutions to respond to a project inquiry?",
       a: "We value your time! Our consultants typically review and respond to all email or form submissions within 2-4 business hours, providing a detailed response or scheduling a discovery call.",
     },
     {
@@ -148,7 +148,7 @@ export default function ContactPage() {
         />
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content container animate-slide-in">
-          <h1>Contact <span>Ananya Hi Solutions</span></h1>
+          <h1>Contact <span>Swetha Solutions</span></h1>
           <p>
             Have a project idea or looking to accelerate your digital growth? Get in touch with our tech consultants. We design custom high-performance web, app, and marketing solutions.
           </p>
@@ -177,7 +177,7 @@ export default function ContactPage() {
             {/* Location Channel Card */}
             <div className="channel-card">
               <a
-                href="https://www.google.com/maps/place/Ananya+Hi+Solutions/@17.4236443,78.449918,17z/data=!4m6!3m5!1s0x3bcb9183fd7f0d1b:0x33152b32540e8bdc!8m2!3d17.4236782!4d78.4528612!16s%2Fg%2F11ms3900cz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/place/Swetha+Hi+Solutions/@17.4236443,78.449918,17z/data=!4m6!3m5!1s0x3bcb9183fd7f0d1b:0x33152b32540e8bdc!8m2!3d17.4236782!4d78.4528612!16s%2Fg%2F11ms3900cz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex flex-col items-center"
@@ -196,7 +196,7 @@ export default function ContactPage() {
 
             {/* Email Channel Card */}
             <div className="channel-card">
-              <a href="mailto:info@ananyahisolutions.com" className="w-full flex flex-col items-center">
+              <a href="mailto:info@swethasolutions.com" className="w-full flex flex-col items-center">
                 <div className="channel-icon-wrapper" title="Compose Email">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -205,7 +205,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="channel-title">Email Us Anytime</h3>
                 <p className="channel-desc">Send us your technical designs, requirements sheets, or business inquiries.</p>
-                <span className="channel-link">info@ananyahisolutions.com</span>
+                <span className="channel-link">info@swethasolutions.com</span>
               </a>
             </div>
 
@@ -376,13 +376,13 @@ export default function ContactPage() {
           <p>Follow us on social media for updates, tips &amp; offers!</p>
           <div className="stay-connected-icons">
             {/* Facebook */}
-            <a href="https://www.facebook.com/AnanyaHiSolutions/" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="Facebook">
+            <a href="https://www.facebook.com/SwethaSolutions/" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="Facebook">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
               </svg>
             </a>
             {/* Instagram */}
-            <a href="https://www.instagram.com/ananyahisolutions/" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="Instagram">
+            <a href="https://www.instagram.com/swethasolutions/" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="Instagram">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -397,7 +397,7 @@ export default function ContactPage() {
               </svg>
             </a>
             {/* LinkedIn */}
-            <a href="https://www.linkedin.com/company/ananya-hi-solutions/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/swetha-solutions/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="sc-icon-link" aria-label="LinkedIn">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
                 <circle cx="4" cy="4" r="2" />

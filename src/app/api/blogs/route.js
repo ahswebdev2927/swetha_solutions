@@ -117,7 +117,7 @@ export async function POST(request) {
       metaDescription: finalMetaDesc,
       metaKeywords: finalKeywords,
       date: formattedDate,
-      author: (author || "Ananya Hi Solutions").trim()
+      author: (author || "Swetha Solutions").trim()
     };
 
     await db.execute({
@@ -224,7 +224,7 @@ export async function PUT(request) {
       metaDescription: finalMetaDesc,
       metaKeywords: finalKeywords,
       date: date || existing.publish_date || currentDate,
-      author: (author || existing.author || "Ananya Hi Solutions").trim()
+      author: (author || existing.author || "Swetha Solutions").trim()
     };
 
     await db.execute({

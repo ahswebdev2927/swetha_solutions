@@ -7,8 +7,8 @@ import Link from "next/link";
 function Logo({ className = "" }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className="nav-logo-img"
       style={{
         height: "56px",

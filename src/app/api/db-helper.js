@@ -6,7 +6,7 @@ export function verifyToken(req) {
   if (!authHeader) return false;
   
   const token = authHeader.replace("Bearer ", "");
-  return token === "ananya-secure-admin-token-2026";
+  return token === "swetha-secure-admin-token-2026";
 }
 
 export { getDbClient, initDatabaseSchema };

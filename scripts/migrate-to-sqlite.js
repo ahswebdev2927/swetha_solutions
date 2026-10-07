@@ -10,7 +10,7 @@ async function migrate() {
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  const dbPath = path.join(dataDir, "ananya.db");
+  const dbPath = path.join(dataDir, "swetha.db");
   const jsonPath = path.join(__dirname, "..", "src", "data", "db.json");
 
   if (!fs.existsSync(jsonPath)) {
@@ -59,7 +59,7 @@ async function migrate() {
       summary TEXT NOT NULL,
       content TEXT NOT NULL,
       category TEXT NOT NULL,
-      author TEXT DEFAULT 'Ananya Hi Solutions',
+      author TEXT DEFAULT 'Swetha Solutions',
       cover_image TEXT,
       publish_date TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -213,7 +213,7 @@ async function migrate() {
           b.summary || "",
           b.content || "",
           b.category || "Technology",
-          b.author || "Ananya Hi Solutions",
+          b.author || "Swetha Solutions",
           b.coverImage || "/images/hero/blog_hero_bg.png",
           b.date || new Date().toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })
         ]

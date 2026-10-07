@@ -9,8 +9,8 @@ import GlobalFooter from "../../components/GlobalFooter";
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "42px",
@@ -81,7 +81,7 @@ const SERVICES_DETAIL_DATA = {
   "web-design": {
     title: "Website Design",
     bannerTitle: "Website Design Company in Hyderabad",
-    bannerDesc: "Ananya Hi Solutions is your trusted partner for affordable, SEO-friendly & mobile-optimized website design in Hyderabad. We create websites that not only look stunning but also bring you more traffic, leads & sales.",
+    bannerDesc: "Swetha Solutions is your trusted partner for affordable, SEO-friendly & mobile-optimized website design in Hyderabad. We create websites that not only look stunning but also bring you more traffic, leads & sales.",
     bannerBadge: "✓ 100+ Websites Delivered in Hyderabad | ⭐️ Rated 5/5 by Local Businesses",
     heroVisual: "/images/hero/web-design.jpg",
     subtypesTitle: "Website Development Agency in Hyderabad for Startups & Brands",
@@ -110,13 +110,13 @@ const SERVICES_DETAIL_DATA = {
     ],
     overviewTitle: "Professional Website Design and Development Services in Hyderabad",
     paragraphs: [
-      "In today's digital-first world, your website is often the first impression potential customers have of your business. At Ananya Hi Solutions, we create stunning, high-performance websites that not only look exceptional but drive real business results.",
+      "In today's digital-first world, your website is often the first impression potential customers have of your business. At Swetha Solutions, we create stunning, high-performance websites that not only look exceptional but drive real business results.",
       "Our website design and development services combine aesthetic excellence with technical sophistication. Every website we build is fully responsive (mobile, tablet, desktop), optimized for search engines, designed for fast loading speeds, and focused on user experience and conversion optimization.",
       "We specialize in diverse web solutions including corporate websites, e-commerce platforms, portfolio sites, landing pages, web applications, CMS-based sites (WordPress, Shopify), and custom PHP/React development. Whether you need a simple brochure site or a complex web application, we have the expertise to deliver."
     ],
     faqs: [
-      { q: "What technologies does Ananya Hi Solutions use for website development?", a: "We leverage modern technology stacks including React, Next.js, HTML5/CSS3, Node.js, and popular content management systems (WordPress, Shopify, custom headless CMS) to build secure, robust, and lightning-fast websites tailored to your business." },
-      { q: "How much does website design and development cost at Ananya Hi Solutions?", a: "The cost depends on the scope, features, and complexity of the project. We offer customized packages ranging from basic static websites for startups to advanced e-commerce platforms and custom web applications. Contact us for a free detailed quote." },
+      { q: "What technologies does Swetha Solutions use for website development?", a: "We leverage modern technology stacks including React, Next.js, HTML5/CSS3, Node.js, and popular content management systems (WordPress, Shopify, custom headless CMS) to build secure, robust, and lightning-fast websites tailored to your business." },
+      { q: "How much does website design and development cost at Swetha Solutions?", a: "The cost depends on the scope, features, and complexity of the project. We offer customized packages ranging from basic static websites for startups to advanced e-commerce platforms and custom web applications. Contact us for a free detailed quote." },
       { q: "What is included in your website design package?", a: "Our standard packages include custom UI/UX design, fully responsive layout, basic SEO optimization, contact form integration, social media linkage, and post-launch technical support." },
       { q: "How do you ensure websites are mobile-friendly and responsive?", a: "We follow a mobile-first design philosophy. Every website is built using fluid layouts and tested across multiple physical devices and screen sizes to ensure a flawless user experience on mobile, tablet, and desktop." },
       { q: "What ongoing support do you provide after website launch?", a: "We provide comprehensive post-launch support, including regular software updates, security monitoring, database backups, content updates, and troubleshooting to keep your website running smoothly 24/7." }
@@ -125,7 +125,7 @@ const SERVICES_DETAIL_DATA = {
   "digital-marketing": {
     title: "Digital Marketing",
     bannerTitle: "Digital Marketing Agency in Hyderabad",
-    bannerDesc: "Ananya Hi Solutions is a top-rated digital marketing company in Hyderabad. We build data-driven organic search campaigns, paid ad pipelines, and viral social campaigns designed to multiply your sales and ROI.",
+    bannerDesc: "Swetha Solutions is a top-rated digital marketing company in Hyderabad. We build data-driven organic search campaigns, paid ad pipelines, and viral social campaigns designed to multiply your sales and ROI.",
     bannerBadge: "✓ 50+ Growth Campaigns Managed | ⭐️ Rated 4.9/5 by Brand Managers",
     heroVisual: "/images/hero/digital-marketing.jpg",
     subtypesTitle: "Digital Marketing Services in Hyderabad for Startups & Brands",
@@ -160,7 +160,7 @@ const SERVICES_DETAIL_DATA = {
     ],
     overviewTitle: "Professional Digital Marketing Services in Hyderabad",
     paragraphs: [
-      "Online visibility is the single most critical factor for modern business growth. At Ananya Hi Solutions, we implement comprehensive digital marketing campaigns designed to position your brand at the forefront of your industry.",
+      "Online visibility is the single most critical factor for modern business growth. At Swetha Solutions, we implement comprehensive digital marketing campaigns designed to position your brand at the forefront of your industry.",
       "We combine technical search audits, high-intent keyword strategies, creative social copywriting, and conversion-optimized ad placements to deliver predictable customer acquisitions.",
       "Whether you are looking to boost your local foot traffic in Hyderabad, rank organically globally, or launch paid funnels on Meta and Google, our certified marketing team executes campaigns with transparent monthly reporting."
     ],
@@ -175,7 +175,7 @@ const SERVICES_DETAIL_DATA = {
   "mobile-app": {
     title: "Mobile Application",
     bannerTitle: "Mobile App Development Company in Hyderabad",
-    bannerDesc: "Ananya Hi Solutions engineers elite mobile applications for iOS and Android platforms. We design fluid, high-performance apps that drive user engagement and scale your services.",
+    bannerDesc: "Swetha Solutions engineers elite mobile applications for iOS and Android platforms. We design fluid, high-performance apps that drive user engagement and scale your services.",
     bannerBadge: "✓ 30+ Custom Apps Launched | ⭐️ Rated 5/5 by Product Owners",
     heroVisual: "/images/hero/mobile-app.jpg",
     subtypesTitle: "Mobile App Development Services in Hyderabad",
@@ -207,7 +207,7 @@ const SERVICES_DETAIL_DATA = {
   "ecommerce-app": {
     title: "Ecommerce Application",
     bannerTitle: "Ecommerce Development Company in Hyderabad",
-    bannerDesc: "Scale your retail sales with high-converting eCommerce stores. Ananya Hi Solutions builds blazing-fast multi-vendor marketplaces and single-brand storefronts.",
+    bannerDesc: "Scale your retail sales with high-converting eCommerce stores. Swetha Solutions builds blazing-fast multi-vendor marketplaces and single-brand storefronts.",
     bannerBadge: "✓ 40+ E-Commerce Platforms Built | ⭐️ Rated 5/5 by Online Retailers",
     heroVisual: "/images/hero/ecommerce-app.jpg",
     subtypesTitle: "eCommerce Store Development in Hyderabad",
@@ -245,7 +245,7 @@ const SERVICES_DETAIL_DATA = {
   "video-production": {
     title: "Video Production",
     bannerTitle: "Video Production Company in Hyderabad",
-    bannerDesc: "Ananya Hi Solutions delivers premium cinematic video production. We script, film, and edit corporate profiles, social media loops, and product explainers that captivate audiences.",
+    bannerDesc: "Swetha Solutions delivers premium cinematic video production. We script, film, and edit corporate profiles, social media loops, and product explainers that captivate audiences.",
     bannerBadge: "✓ 200+ Videos Produced | ⭐️ Rated 4.9/5 by Corporate Clients",
     heroVisual: "/images/hero/video-production.jpg",
     subtypesTitle: "Professional Video Production Services in Hyderabad",
@@ -325,7 +325,7 @@ const SERVICES_DETAIL_DATA = {
   "software-development": {
     title: "Software Development",
     bannerTitle: "Software Development Company in Hyderabad",
-    bannerDesc: "Ananya Hi Solutions develops robust enterprise-grade software. We build custom CRMs, Billing engines, LMS portals, and College management systems to automate your workflows.",
+    bannerDesc: "Swetha Solutions develops robust enterprise-grade software. We build custom CRMs, Billing engines, LMS portals, and College management systems to automate your workflows.",
     bannerBadge: "✓ 60+ Custom Software Builds | ⭐️ Rated 5/5 by Operations Directors",
     heroVisual: "/images/hero/software-development.png",
     subtypesTitle: "Enterprise Software Development in Hyderabad",
@@ -381,7 +381,7 @@ const SERVICES_DETAIL_DATA = {
   "seo": {
     title: "SEO (Search Engine Optimization)",
     bannerTitle: "SEO (Search Engine Optimization) Company in Hyderabad",
-    bannerDesc: "Boost your organic search rankings and drive targeted buyer traffic to your website. Ananya Hi Solutions delivers data-driven SEO strategies, technical audits, on-page optimization, and high-authority link building.",
+    bannerDesc: "Boost your organic search rankings and drive targeted buyer traffic to your website. Swetha Solutions delivers data-driven SEO strategies, technical audits, on-page optimization, and high-authority link building.",
     bannerBadge: "✓ #1 Ranked SEO Agency in Hyderabad | ⭐️ Rated 5/5 by Local Businesses",
     heroVisual: "/images/hero/seo_banner.jpg",
     subtypesTitle: "Search Engine Optimization (SEO) Services in Hyderabad",
@@ -400,7 +400,7 @@ const SERVICES_DETAIL_DATA = {
     overviewTitle: "Pioneering Search Engine Optimization (SEO) Services",
     paragraphs: [
       "In today's digital landscape, ranking on the first page of search engine results is essential for driving sustainable business growth. Search Engine Optimization (SEO) aligns your website structure, technical setup, and content with search engine algorithms to drive high-intent organic traffic.",
-      "At Ananya Hi Solutions, we implement comprehensive SEO strategies including in-depth keyword research, technical website audits, on-page content optimization, schema markup integration, fast loading speed enhancements, and ethical link-building.",
+      "At Swetha Solutions, we implement comprehensive SEO strategies including in-depth keyword research, technical website audits, on-page content optimization, schema markup integration, fast loading speed enhancements, and ethical link-building.",
       "Whether you are targeting local customers in Hyderabad or expanding your organic reach globally, our data-driven SEO campaigns deliver consistent ranking growth, increased website authority, and maximum conversion ROI."
     ],
     faqs: [
@@ -412,7 +412,7 @@ const SERVICES_DETAIL_DATA = {
   "aeo": {
     title: "SEO (Search Engine Optimization)",
     bannerTitle: "SEO (Search Engine Optimization) Company in Hyderabad",
-    bannerDesc: "Boost your organic search rankings and drive targeted buyer traffic to your website. Ananya Hi Solutions delivers data-driven SEO strategies, technical audits, on-page optimization, and high-authority link building.",
+    bannerDesc: "Boost your organic search rankings and drive targeted buyer traffic to your website. Swetha Solutions delivers data-driven SEO strategies, technical audits, on-page optimization, and high-authority link building.",
     bannerBadge: "✓ #1 Ranked SEO Agency in Hyderabad | ⭐️ Rated 5/5 by Local Businesses",
     heroVisual: "/images/hero/seo_banner.jpg",
     subtypesTitle: "Search Engine Optimization (SEO) Services in Hyderabad",
@@ -431,7 +431,7 @@ const SERVICES_DETAIL_DATA = {
     overviewTitle: "Pioneering Search Engine Optimization (SEO) Services",
     paragraphs: [
       "In today's digital landscape, ranking on the first page of search engine results is essential for driving sustainable business growth. Search Engine Optimization (SEO) aligns your website structure, technical setup, and content with search engine algorithms to drive high-intent organic traffic.",
-      "At Ananya Hi Solutions, we implement comprehensive SEO strategies including in-depth keyword research, technical website audits, on-page content optimization, schema markup integration, fast loading speed enhancements, and ethical link-building.",
+      "At Swetha Solutions, we implement comprehensive SEO strategies including in-depth keyword research, technical website audits, on-page content optimization, schema markup integration, fast loading speed enhancements, and ethical link-building.",
       "Whether you are targeting local customers in Hyderabad or expanding your organic reach globally, our data-driven SEO campaigns deliver consistent ranking growth, increased website authority, and maximum conversion ROI."
     ],
     faqs: [
@@ -759,7 +759,7 @@ User Comments: ${formData.message || "None"}`;
   const [chatOpen, setChatOpen] = useState(false);
   const [chatMessage, setChatMessage] = useState("");
   const [chatHistory, setChatHistory] = useState([
-    { sender: "bot", text: "Hello! Welcome to Ananya Hi Solutions. How can I help you regarding this service today?" },
+    { sender: "bot", text: "Hello! Welcome to Swetha Solutions. How can I help you regarding this service today?" },
   ]);
   const messagesEndRef = useRef(null);
 
@@ -783,7 +783,7 @@ User Comments: ${formData.message || "None"}`;
     setChatMessage("");
 
     setTimeout(() => {
-      let reply = `Thank you for reaching out! Our consultants are ready to assist you with ${data.title}. Drop your email here or write us at info@ananyahisolutions.com.`;
+      let reply = `Thank you for reaching out! Our consultants are ready to assist you with ${data.title}. Drop your email here or write us at info@swethasolutions.com.`;
       setChatHistory((prev) => [...prev, { sender: "bot", text: reply }]);
     }, 1000);
   };
@@ -809,7 +809,7 @@ User Comments: ${formData.message || "None"}`;
               <p className="hero-subtitle" style={!data.heroVisual ? { textAlign: "center", margin: "0 auto 30px auto" } : {}}>{data.bannerDesc}</p>
               <div className="hero-actions" style={!data.heroVisual ? { justifyContent: "center" } : {}}>
                 <a 
-                  href={`https://wa.me/917673935353?text=Hello%20Ananya%20Hi%20Solutions,%20I%20would%20like%20to%20get%20a%20free%20consultation%20regarding%20your%20${encodeURIComponent(data.title)}%20services.`} 
+                  href={`https://wa.me/917673935353?text=Hello%20Swetha%20Hi%20Solutions,%20I%20would%20like%20to%20get%20a%20free%20consultation%20regarding%20your%20${encodeURIComponent(data.title)}%20services.`} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-accent hero-cta-btn"
@@ -1115,7 +1115,7 @@ User Comments: ${formData.message || "None"}`;
             Get a free consultation and let our digital engineers craft a custom strategy tailored to your business goals.
           </p>
           <a 
-            href={`https://wa.me/917673935353?text=Hello%20Ananya%20Hi%20Solutions,%20I%20would%20like%20to%20get%20a%20free%20consultation%20regarding%20your%20${encodeURIComponent(data.title)}%20services.`} 
+            href={`https://wa.me/917673935353?text=Hello%20Swetha%20Hi%20Solutions,%20I%20would%20like%20to%20get%20a%20free%20consultation%20regarding%20your%20${encodeURIComponent(data.title)}%20services.`} 
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn btn-accent cta-glow-btn"

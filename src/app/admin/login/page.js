@@ -13,8 +13,8 @@ export default function AdminLoginPage() {
 
   // Redirect if already logged in
   useEffect(() => {
-    const token = localStorage.getItem("ananya_admin_token");
-    if (token === "ananya-secure-admin-token-2026") {
+    const token = localStorage.getItem("swetha_admin_token");
+    if (token === "swetha-secure-admin-token-2026") {
       router.push("/admin");
     }
   }, [router]);
@@ -34,7 +34,7 @@ export default function AdminLoginPage() {
       const data = await response.json();
 
       if (response.ok && data.success) {
-        localStorage.setItem("ananya_admin_token", data.token);
+        localStorage.setItem("swetha_admin_token", data.token);
         router.push("/admin");
       } else {
         setError(data.error || "Invalid username or passcode.");
@@ -54,8 +54,8 @@ export default function AdminLoginPage() {
       <div className="admin-login-card">
         <div className="admin-login-header">
           <img
-            src="/logo.png"
-            alt="Ananya Hi Solutions"
+            src="/swetha_solutions_logo.png"
+            alt="Swetha Solutions"
             className="admin-login-logo"
           />
           <h2>Admin Control Panel</h2>

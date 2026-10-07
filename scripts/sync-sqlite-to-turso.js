@@ -42,7 +42,7 @@ async function syncToTurso() {
 
   if (!tursoUrl || !tursoToken) {
     console.error("❌ Error: TURSO_DATABASE_URL or TURSO_AUTH_TOKEN not found in .env files!");
-    console.log("Please check your .env file in AnanyaHiSolutions/.env");
+    console.log("Please check your .env file in SwethaSolutions/.env");
     process.exit(1);
   }
 
@@ -51,7 +51,7 @@ async function syncToTurso() {
     tursoUrl = tursoUrl.replace("libsql://", "https://");
   }
 
-  const localDbPath = path.join(__dirname, "..", "data", "ananya.db");
+  const localDbPath = path.join(__dirname, "..", "data", "swetha.db");
   if (!fs.existsSync(localDbPath)) {
     console.error("❌ Error: Local SQLite database not found at:", localDbPath);
     process.exit(1);
@@ -102,7 +102,7 @@ async function syncToTurso() {
       summary TEXT NOT NULL,
       content TEXT NOT NULL,
       category TEXT NOT NULL,
-      author TEXT DEFAULT 'Ananya Hi Solutions',
+      author TEXT DEFAULT 'Swetha Solutions',
       cover_image TEXT,
       publish_date TEXT,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,

@@ -85,7 +85,7 @@ Details:
 - Website URL: ${website || "Not provided"}
 
 Best Regards,
-Ananya Hi Solutions Support System`,
+Swetha Solutions Support System`,
         });
 
         emailSent = true;

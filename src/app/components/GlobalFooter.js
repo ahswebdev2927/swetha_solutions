@@ -8,8 +8,8 @@ import Link from "next/link";
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "56px",
@@ -63,7 +63,7 @@ export default function GlobalFooter() {
               <li className="footer-contact-item">
                 <span className="footer-contact-icon">📍</span>
                 <a 
-                  href="https://www.google.com/maps/place/Ananya+Hi+Solutions/@17.4236443,78.449918,17z/data=!4m6!3m5!1s0x3bcb9183fd7f0d1b:0x33152b32540e8bdc!8m2!3d17.4236782!4d78.4528612!16s%2Fg%2F11ms3900cz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://www.google.com/maps/place/Swetha+Hi+Solutions/@17.4236443,78.449918,17z/data=!4m6!3m5!1s0x3bcb9183fd7f0d1b:0x33152b32540e8bdc!8m2!3d17.4236782!4d78.4528612!16s%2Fg%2F11ms3900cz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -76,25 +76,25 @@ export default function GlobalFooter() {
               </li>
               <li className="footer-contact-item">
                 <span className="footer-contact-icon">✉️</span>
-                <a href="mailto:info@ananyahisolutions.com">info@ananyahisolutions.com</a>
+                <a href="mailto:info@swethasolutions.com">info@swethasolutions.com</a>
               </li>
             </ul>
 
             {/* Social Icons */}
             <div className="footer-socials">
-              <a href="https://www.facebook.com/AnanyaHiSolutions/" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Facebook">
+              <a href="https://www.facebook.com/SwethaSolutions/" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Facebook">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               </a>
-              <a href="https://www.instagram.com/ananyahisolutions/" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Instagram">
+              <a href="https://www.instagram.com/swethasolutions/" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Instagram">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                 </svg>
               </a>
-              <a href="https://www.linkedin.com/company/ananya-hi-solutions/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/swetha-solutions/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="LinkedIn">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect x="2" y="9" width="4" height="12" />
@@ -114,7 +114,7 @@ export default function GlobalFooter() {
         <hr className="footer-divider" />
 
         <div className="footer-bottom">
-          <p>© 2025 Ananya Hi Solutions. All Rights Reserved.</p>
+          <p>© 2025 Swetha Solutions. All Rights Reserved.</p>
         </div>
       </footer>
 
@@ -122,18 +122,18 @@ export default function GlobalFooter() {
       <div className="chat-widget-container">
         {/* Closed speech bubble helper */}
         <a 
-          href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance!"
+          href="https://wa.me/917673935353?text=Hi%20Swetha%20Team,%20I%20need%20assistance!"
           target="_blank"
           rel="noopener noreferrer"
           className="chat-bubble"
           style={{ textDecoration: "none" }}
         >
-          <span>Hi, I'm Ananya 👋</span>
+          <span>Hi, I'm Swetha 👋</span>
         </a>
 
         {/* Floating rounded button */}
         <a 
-          href="https://wa.me/917673935353?text=Hi%20Ananya%20Team,%20I%20need%20assistance!"
+          href="https://wa.me/917673935353?text=Hi%20Swetha%20Team,%20I%20need%20assistance!"
           target="_blank"
           rel="noopener noreferrer"
           className="chat-trigger"

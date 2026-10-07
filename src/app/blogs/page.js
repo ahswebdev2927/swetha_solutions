@@ -67,7 +67,7 @@ export default function BlogsPage() {
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content container animate-slide-in">
           <h1>
-            Ananya <span>Insights & Blog</span>
+            Swetha <span>Insights & Blog</span>
           </h1>
           <p>
             Explore expert guides, cutting-edge software practices, digital growth frameworks, and modern safety solutions.
@@ -91,8 +91,8 @@ export default function BlogsPage() {
                     fontSize: "13px",
                     fontWeight: 500,
                     cursor: "pointer",
-                    border: selectedCategory === cat ? "1px solid #0f75bc" : "1px solid #cbd5e1",
-                    background: selectedCategory === cat ? "#0f75bc" : "#ffffff",
+                    border: selectedCategory === cat ? "1px solid #E75D5F" : "1px solid #cbd5e1",
+                    background: selectedCategory === cat ? "#E75D5F" : "#ffffff",
                     color: selectedCategory === cat ? "#ffffff" : "#475569",
                     transition: "all 0.2s ease"
                   }}
@@ -192,7 +192,7 @@ export default function BlogsPage() {
                     style={{
                       marginTop: "12px",
                       padding: "6px 16px",
-                      background: "#0f75bc",
+                      background: "#E75D5F",
                       color: "#fff",
                       border: "none",
                       borderRadius: "6px",
@@ -231,7 +231,7 @@ export default function BlogsPage() {
                       <div>
                         <div className="blog-card-frontend-meta">
                           <span>📅 {post.date}</span>
-                          <span>✍️ {post.author || "Ananya Hi Solutions"}</span>
+                          <span>✍️ {post.author || "Swetha Solutions"}</span>
                         </div>
 
                         {/* Title linking to article */}

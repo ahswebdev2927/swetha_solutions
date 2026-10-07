@@ -81,26 +81,26 @@ export async function generateMetadata({ params }) {
 
   if (!data || !data.blog) {
     return {
-      title: "Article Not Found | Ananya Hi Solutions",
+      title: "Article Not Found | Swetha Solutions",
       description: "The requested blog article could not be found.",
     };
   }
 
   const { blog } = data;
-  const title = blog.metaTitle || `${blog.title} | Ananya Hi Solutions`;
+  const title = blog.metaTitle || `${blog.title} | Swetha Solutions`;
   const description =
     blog.metaDescription ||
     blog.summary ||
-    "Read this article on Ananya Hi Solutions.";
-  const canonicalUrl = `https://ananyahisolutions.com/blogs/${blog.slug || blog.id}`;
+    "Read this article on Swetha Solutions.";
+  const canonicalUrl = `https://swethasolutions.com/blogs/${blog.slug || blog.id}`;
   const keywords = blog.metaKeywords
     ? blog.metaKeywords.split(",").map((k) => k.trim())
     : [];
   const imageUrl = blog.coverImage
     ? blog.coverImage.startsWith("http")
       ? blog.coverImage
-      : `https://ananyahisolutions.com${blog.coverImage}`
-    : "https://ananyahisolutions.com/images/hero/digital-marketing.png";
+      : `https://swethasolutions.com${blog.coverImage}`
+    : "https://swethasolutions.com/images/hero/digital-marketing.png";
 
   return {
     title,
@@ -116,7 +116,7 @@ export async function generateMetadata({ params }) {
       type: "article",
       publishedTime: blog.createdAt || blog.date,
       modifiedTime: blog.updatedAt || blog.createdAt,
-      authors: [blog.author || "Ananya Hi Solutions"],
+      authors: [blog.author || "Swetha Solutions"],
       images: [
         {
           url: imageUrl,
@@ -162,14 +162,14 @@ export default async function SingleBlogDetailPage({ params }) {
     dateModified: blog.updatedAt || blog.createdAt,
     author: {
       "@type": "Organization",
-      name: blog.author || "Ananya Hi Solutions",
+      name: blog.author || "Swetha Solutions",
     },
     publisher: {
       "@type": "Organization",
-      name: "Ananya Hi Solutions",
+      name: "Swetha Solutions",
       logo: {
         "@type": "ImageObject",
-        url: "https://ananyahisolutions.com/logo.png",
+        url: "https://swethasolutions.com/swetha_solutions_logo.png",
       },
     },
     keywords: blog.metaKeywords || "",
@@ -213,7 +213,7 @@ export default async function SingleBlogDetailPage({ params }) {
               <li>
                 <Link
                   href="/"
-                  style={{ color: "#0f75bc", textDecoration: "none" }}
+                  style={{ color: "#E75D5F", textDecoration: "none" }}
                 >
                   Home
                 </Link>
@@ -222,7 +222,7 @@ export default async function SingleBlogDetailPage({ params }) {
               <li>
                 <Link
                   href="/blogs"
-                  style={{ color: "#0f75bc", textDecoration: "none" }}
+                  style={{ color: "#E75D5F", textDecoration: "none" }}
                 >
                   Blogs
                 </Link>
@@ -258,7 +258,7 @@ export default async function SingleBlogDetailPage({ params }) {
               <span
                 style={{
                   background: "rgba(15, 117, 188, 0.1)",
-                  color: "#0f75bc",
+                  color: "#E75D5F",
                   padding: "4px 12px",
                   borderRadius: "16px",
                   fontSize: "13px",
@@ -300,7 +300,7 @@ export default async function SingleBlogDetailPage({ params }) {
                   fontSize: "17px",
                   lineHeight: 1.6,
                   color: "#475569",
-                  borderLeft: "4px solid #0f75bc",
+                  borderLeft: "4px solid #E75D5F",
                   paddingLeft: "16px",
                   margin: "16px 0 28px",
                   fontStyle: "italic",
@@ -402,7 +402,7 @@ export default async function SingleBlogDetailPage({ params }) {
                         padding: "4px 10px",
                         borderRadius: "16px",
                         background: "rgba(15, 117, 188, 0.06)",
-                        color: "#0f75bc",
+                        color: "#E75D5F",
                         fontWeight: 500,
                       }}
                     >
@@ -437,7 +437,7 @@ export default async function SingleBlogDetailPage({ params }) {
                   width: "54px",
                   height: "54px",
                   borderRadius: "50%",
-                  background: "#0f75bc",
+                  background: "#E75D5F",
                   color: "#fff",
                   display: "flex",
                   alignItems: "center",
@@ -517,7 +517,7 @@ export default async function SingleBlogDetailPage({ params }) {
                 <Link
                   href="/blogs"
                   style={{
-                    color: "#0f75bc",
+                    color: "#E75D5F",
                     fontSize: "14px",
                     fontWeight: 600,
                     textDecoration: "none",

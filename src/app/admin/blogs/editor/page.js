@@ -32,7 +32,7 @@ function BlogEditorContent() {
   const [blogTitle, setBlogTitle] = useState("");
   const [blogSlug, setBlogSlug] = useState("");
   const [blogCategory, setBlogCategory] = useState("Technology");
-  const [blogAuthor, setBlogAuthor] = useState("Ananya Hi Solutions");
+  const [blogAuthor, setBlogAuthor] = useState("Swetha Solutions");
   const [blogDate, setBlogDate] = useState("");
   const [blogCoverImage, setBlogCoverImage] = useState("");
   const [blogContent, setBlogContent] = useState("");
@@ -65,8 +65,8 @@ function BlogEditorContent() {
 
   // Auth & Load Blog Data
   useEffect(() => {
-    const token = localStorage.getItem("ananya_admin_token");
-    if (token !== "ananya-secure-admin-token-2026") {
+    const token = localStorage.getItem("swetha_admin_token");
+    if (token !== "swetha-secure-admin-token-2026") {
       router.push("/admin/login");
       return;
     }
@@ -248,7 +248,7 @@ function BlogEditorContent() {
     formData.append("type", "blog");
     formData.append("blogId", blogId || `post-${Date.now()}`);
 
-    const token = localStorage.getItem("ananya_admin_token");
+    const token = localStorage.getItem("swetha_admin_token");
     const xhr = new XMLHttpRequest();
 
     xhr.upload.onprogress = (event) => {
@@ -306,7 +306,7 @@ function BlogEditorContent() {
     if (!blogCoverImage && !selectedFile && !externalImageUrl) return;
 
     const imageToDelete = blogCoverImage;
-    const token = typeof window !== "undefined" ? localStorage.getItem("ananya_admin_token") : null;
+    const token = typeof window !== "undefined" ? localStorage.getItem("swetha_admin_token") : null;
 
     if (imageToDelete && imageToDelete.startsWith("/uploads/")) {
       try {
@@ -355,14 +355,14 @@ function BlogEditorContent() {
     }
 
     setSaving(true);
-    const token = localStorage.getItem("ananya_admin_token");
+    const token = localStorage.getItem("swetha_admin_token");
 
     const payload = {
       id: blogId,
       title: blogTitle.trim(),
       slug: blogSlug.trim() || undefined,
       category: blogCategory.trim(),
-      author: blogAuthor.trim() || "Ananya Hi Solutions",
+      author: blogAuthor.trim() || "Swetha Solutions",
       date: blogDate,
       coverImage: blogCoverImage,
       content: blogContent,
@@ -404,7 +404,7 @@ function BlogEditorContent() {
   };
 
   const handleLogout = () => {
-    localStorage.removeItem("ananya_admin_token");
+    localStorage.removeItem("swetha_admin_token");
     router.push("/admin/login");
   };
 
@@ -430,7 +430,7 @@ function BlogEditorContent() {
       {/* 1. Admin Sidebar */}
       <aside className="admin-sidebar">
         <div className="admin-sidebar-header">
-          <img src="/logo.png" alt="Ananya Hi Solutions" className="admin-sidebar-logo" />
+          <img src="/swetha_solutions_logo.png" alt="Swetha Solutions" className="admin-sidebar-logo" />
           <span className="admin-sidebar-badge">CONTROL PANEL</span>
         </div>
 
@@ -477,7 +477,7 @@ function BlogEditorContent() {
         {/* Top Header */}
         <header className="admin-main-header" style={{ background: "#ffffff", borderBottom: "1px solid #e2e8f0" }}>
           <div className="header-breadcrumbs">
-            <Link href="/admin?tab=blogs" style={{ color: "#0f75bc", textDecoration: "none" }}>
+            <Link href="/admin?tab=blogs" style={{ color: "#E75D5F", textDecoration: "none" }}>
               Admin / Blogs
             </Link>{" "}
             / <span className="active-breadcrumb">{editId ? "Edit Article" : "Publish New Article"}</span>
@@ -718,7 +718,7 @@ function BlogEditorContent() {
                                   fontSize: "11px",
                                   padding: "3px 10px",
                                   background: "rgba(15, 117, 188, 0.08)",
-                                  color: "#0f75bc",
+                                  color: "#E75D5F",
                                   borderRadius: "14px",
                                   fontWeight: 500
                                 }}
@@ -767,8 +767,8 @@ function BlogEditorContent() {
                               padding: "2px 8px",
                               borderRadius: "12px",
                               fontSize: "11px",
-                              border: blogCategory === cat ? "1px solid #0f75bc" : "1px solid #e2e8f0",
-                              background: blogCategory === cat ? "#0f75bc" : "#f8fafc",
+                              border: blogCategory === cat ? "1px solid #E75D5F" : "1px solid #e2e8f0",
+                              background: blogCategory === cat ? "#E75D5F" : "#f8fafc",
                               color: blogCategory === cat ? "#fff" : "#475569",
                               cursor: "pointer"
                             }}
@@ -788,7 +788,7 @@ function BlogEditorContent() {
                         type="text"
                         value={blogAuthor}
                         onChange={(e) => setBlogAuthor(e.target.value)}
-                        placeholder="e.g. Ananya Hi Solutions"
+                        placeholder="e.g. Swetha Solutions"
                         style={{ width: "100%", padding: "8px 10px", borderRadius: "6px", border: "1px solid #cbd5e1", fontSize: "13px" }}
                       />
                     </div>
@@ -811,7 +811,7 @@ function BlogEditorContent() {
                           fontSize: "12px",
                           fontWeight: imageSourceTab === "url" ? 700 : 500,
                           background: imageSourceTab === "url" ? "#ffffff" : "transparent",
-                          color: imageSourceTab === "url" ? "#0f75bc" : "#64748b",
+                          color: imageSourceTab === "url" ? "#E75D5F" : "#64748b",
                           border: "none",
                           borderRadius: "6px",
                           cursor: "pointer",
@@ -830,7 +830,7 @@ function BlogEditorContent() {
                           fontSize: "12px",
                           fontWeight: imageSourceTab === "upload" ? 700 : 500,
                           background: imageSourceTab === "upload" ? "#ffffff" : "transparent",
-                          color: imageSourceTab === "upload" ? "#0f75bc" : "#64748b",
+                          color: imageSourceTab === "upload" ? "#E75D5F" : "#64748b",
                           border: "none",
                           borderRadius: "6px",
                           cursor: "pointer",
@@ -940,7 +940,7 @@ function BlogEditorContent() {
                         {/* Progress Bar */}
                         {(isUploading || (uploadProgress > 0 && uploadProgress < 100)) && (
                           <div style={{ marginTop: "12px" }}>
-                            <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px", marginBottom: "3px", color: "#0f75bc", fontWeight: 600 }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px", marginBottom: "3px", color: "#E75D5F", fontWeight: 600 }}>
                               <span>Uploading...</span>
                               <span>{uploadProgress}%</span>
                             </div>
@@ -949,7 +949,7 @@ function BlogEditorContent() {
                                 style={{
                                   width: `${uploadProgress}%`,
                                   height: "100%",
-                                  background: "linear-gradient(90deg, #0f75bc, #22c55e)",
+                                  background: "linear-gradient(90deg, #E75D5F, #22c55e)",
                                   transition: "width 0.2s ease"
                                 }}
                               ></div>
@@ -1017,7 +1017,7 @@ function BlogEditorContent() {
                             style={{
                               background: "none",
                               border: "none",
-                              color: "#0f75bc",
+                              color: "#E75D5F",
                               fontSize: "11px",
                               fontWeight: 600,
                               cursor: "pointer",

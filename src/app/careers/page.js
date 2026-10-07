@@ -9,8 +9,8 @@ import Header from "../components/Header";
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "42px",
@@ -59,7 +59,7 @@ export default function CareersPage() {
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content container animate-slide-in">
           <span className="text-accent-orange font-bold tracking-widest text-sm uppercase block mb-3">Work with Experts</span>
-          <h1>Careers at <span>Ananya</span></h1>
+          <h1>Careers at <span>Swetha</span></h1>
           <p>
             Join our tech innovation squad in Hyderabad and shape the future of digital enterprise products worldwide.
           </p>
@@ -72,7 +72,7 @@ export default function CareersPage() {
           <h2 className="text-slate-800 mb-6 tracking-tight text-center" style={{ fontSize: "38px", fontWeight: "800", textAlign: "center" }}>Welcome to our Careers Page</h2>
           <div className="w-16 h-1 bg-primary-blue mx-auto mb-6 rounded" style={{ marginBottom: "calc(1.5rem + 0.25cm)" }}></div>
           <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto text-center">
-            At Ananya Hi Solutions, we don't just build websites; we design powerful architectures and digital solutions that empower global businesses to grow. We believe in nurturing talent, pushing technical limits, and fostering an environment of creative freedom and professional growth. Whether you are a code enthusiast, a design virtuoso, or a strategic digital marketer, you will find a collaborative team that supports your journey here. Explore our active vacancies below and find your true calling!
+            At Swetha Solutions, we don't just build websites; we design powerful architectures and digital solutions that empower global businesses to grow. We believe in nurturing talent, pushing technical limits, and fostering an environment of creative freedom and professional growth. Whether you are a code enthusiast, a design virtuoso, or a strategic digital marketer, you will find a collaborative team that supports your journey here. Explore our active vacancies below and find your true calling!
           </p>
         </div>
       </section>
@@ -198,7 +198,7 @@ export default function CareersPage() {
                     flex: 1.5,
                     padding: "12px 20px",
                     borderRadius: "6px",
-                    background: "linear-gradient(135deg, var(--primary-blue) 0%, #0d619c 100%)",
+                    background: "linear-gradient(135deg, var(--primary-blue) 0%, #d64a4c 100%)",
                     color: "#ffffff",
                     fontWeight: "700",
                     fontSize: "14px",

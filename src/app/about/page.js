@@ -35,8 +35,8 @@ const MARQUEE_LOGOS = [
 function Logo({ className = "", light = false }) {
   return (
     <img
-      src="/logo.png"
-      alt="Ananya Hi Solutions"
+      src="/swetha_solutions_logo.png"
+      alt="Swetha Solutions"
       className={`nav-logo-img ${className}`}
       style={{
         height: "42px",
@@ -73,11 +73,11 @@ export default function AboutPage() {
   const [activeFaq, setActiveFaq] = useState(0);
   const faqs = [
     {
-      q: "What is the experience level of Ananya Hi Solutions team?",
+      q: "What is the experience level of Swetha Solutions team?",
       a: "Our team comprises a great group of passionate professionals with extensive experience in their respective fields. This includes Google Ads certified specialists, Facebook Blueprint certified marketers, certified web developers, UX/UI designers, and project managers. Our leadership team brings highly seasoned digital industry experience.",
     },
     {
-      q: "How does Ananya Hi Solutions maintain quality standards?",
+      q: "How does Swetha Solutions maintain quality standards?",
       a: "We follow industry-best practices and international quality standards including ISO-compliant processes, agile methodology for project management, code review protocols, multi-stage quality assurance testing, and continuous team training. Every project undergoes rigorous quality checks before delivery.",
     },
     {
@@ -85,11 +85,11 @@ export default function AboutPage() {
       a: "Our team holds multiple industry certifications including Google Ads Certification, Google Analytics Certification, Facebook Blueprint Certification, HubSpot Inbound Marketing Certification, AWS Cloud Practitioner, and various programming and design certifications. We invest continuously in team development to stay current with evolving technologies.",
     },
     {
-      q: "How does Ananya Hi Solutions approach client relationships?",
+      q: "How does Swetha Solutions approach client relationships?",
       a: "We believe in building long-term partnerships, not just transactional relationships. Each client receives dedicated account management, transparent communication, regular progress updates, strategic consultation, and post-project support. We measure our success by your business growth and satisfaction.",
     },
     {
-      q: "What is Ananya Hi Solutions' company culture and work philosophy?",
+      q: "What is Swetha Solutions' company culture and work philosophy?",
       a: "Our culture centers on continuous innovation, collaborative teamwork, client-centric thinking, and results-driven execution. We foster a learning environment where creativity thrives, encourage open communication, embrace challenges as opportunities, and celebrate both team and client successes.",
     },
   ];
@@ -115,7 +115,7 @@ export default function AboutPage() {
         />
         <div className="page-hero-overlay"></div>
         <div className="page-hero-content container">
-          <h1>About <span>Ananya Hi Solutions</span></h1>
+          <h1>About <span>Swetha Solutions</span></h1>
           <p>
             An industry-leading digital agency based in Hyderabad. We deliver high-performance web solutions, scalable mobile apps, and results-driven marketing strategies globally.
           </p>
@@ -309,7 +309,7 @@ export default function AboutPage() {
             <div className="about-story-text">
               <h3>Who We Are</h3>
               <p>
-                Ananya Hi Solutions is one of Hyderabad's most trusted digital transformation partners. Our journey began with a simple vision: to help businesses harness the power of digital technology to achieve extraordinary growth. Today, we're proud to have a great team of passionate professionals, including certified digital marketers, experienced web designers, skilled developers, creative content specialists, and strategic consultants. Each team member brings specialized expertise and unwavering commitment to client success. Our core values drive everything we do: Innovation in every solution, Transparency in all communications, Excellence in execution, and Partnership in relationships. We don't just work for our clients; we work with them as strategic partners invested in their success.
+                Swetha Solutions is one of Hyderabad's most trusted digital transformation partners. Our journey began with a simple vision: to help businesses harness the power of digital technology to achieve extraordinary growth. Today, we're proud to have a great team of passionate professionals, including certified digital marketers, experienced web designers, skilled developers, creative content specialists, and strategic consultants. Each team member brings specialized expertise and unwavering commitment to client success. Our core values drive everything we do: Innovation in every solution, Transparency in all communications, Excellence in execution, and Partnership in relationships. We don't just work for our clients; we work with them as strategic partners invested in their success.
               </p>
               <p>
                 We have successfully delivered numerous projects, helping businesses across India and internationally to establish a powerful digital presence, generate quality leads, and scale their operations. Our high client retention rate speaks to the lasting relationships we build, the great team synergy we maintain, and the consistent value we deliver to our partners.
@@ -385,11 +385,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 4.5. Why Choose Ananya Hi Solutions Section */}
+      {/* 4.5. Why Choose Swetha Solutions Section */}
       <section className="section bg-white border-t border-slate-100">
         <div className="container">
           <div className="section-header">
-            <h2>Why Choose Ananya Hi Solutions?</h2>
+            <h2>Why Choose Swetha Solutions?</h2>
             <p>
               No Salesman, Just You & Your Professional Web Expert Agency.
             </p>
