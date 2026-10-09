@@ -4,22 +4,23 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 
-// Clean footer logo component with white background
+// Clean footer logo component with tight small rectangular white box
 function FooterLogo() {
   return (
     <div
       style={{
         backgroundColor: "#ffffff",
-        padding: "6px 14px",
-        borderRadius: "8px",
+        padding: "4px 8px",
+        borderRadius: "4px",
         display: "inline-block",
+        lineHeight: 0,
       }}
     >
       <img
-        src="/swetha_solutions_logo.png"
+        src="/swetha_solutions_logo_cropped.png"
         alt="Swetha Solutions"
         style={{
-          height: "38px",
+          height: "34px",
           width: "auto",
           objectFit: "contain",
           display: "block",

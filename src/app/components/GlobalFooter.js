@@ -4,23 +4,24 @@ import React from "react";
 import { useServices } from "../context/ServicesContext";
 import Link from "next/link";
 
-// Crisp Logo Component for Footer with White Background
+// Crisp Logo Component for Footer with Tight Rectangular White Box
 function Logo({ className = "", light = false }) {
   return (
     <div
       style={{
         backgroundColor: "#ffffff",
-        padding: "6px 14px",
-        borderRadius: "8px",
+        padding: "4px 8px",
+        borderRadius: "4px",
         display: "inline-block",
+        lineHeight: 0,
       }}
     >
       <img
-        src="/swetha_solutions_logo.png"
+        src="/swetha_solutions_logo_cropped.png"
         alt="Swetha Solutions"
         className={`nav-logo-img ${className}`}
         style={{
-          height: "44px",
+          height: "36px",
           width: "auto",
           objectFit: "contain",
           display: "block",
