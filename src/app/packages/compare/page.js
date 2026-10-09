@@ -9,18 +9,28 @@ import html2canvas from "html2canvas";
 // Common uniform font stack to ensure absolute visual consistency in rendering
 const UNIFORM_FONT_STACK = "'Times New Roman', Times, Baskerville, Georgia, serif";
 
+// Clean footer logo component with white background
 function FooterLogo() {
   return (
-    <img
-      src="/swetha_solutions_logo.png"
-      alt="Swetha Solutions"
+    <div
       style={{
-        height: "42px",
-        width: "auto",
-        objectFit: "contain",
-        display: "block"
+        backgroundColor: "#ffffff",
+        padding: "6px 14px",
+        borderRadius: "8px",
+        display: "inline-block",
       }}
-    />
+    >
+      <img
+        src="/swetha_solutions_logo.png"
+        alt="Swetha Solutions"
+        style={{
+          height: "38px",
+          width: "auto",
+          objectFit: "contain",
+          display: "block",
+        }}
+      />
+    </div>
   );
 }
 

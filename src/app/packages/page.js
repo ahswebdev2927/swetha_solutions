@@ -4,19 +4,28 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Header from "../components/Header";
 
-// Clean footer logo component
+// Clean footer logo component with white background
 function FooterLogo() {
   return (
-    <img
-      src="/swetha_solutions_logo.png"
-      alt="Swetha Solutions"
+    <div
       style={{
-        height: "42px",
-        width: "auto",
-        objectFit: "contain",
-        display: "block"
+        backgroundColor: "#ffffff",
+        padding: "6px 14px",
+        borderRadius: "8px",
+        display: "inline-block",
       }}
-    />
+    >
+      <img
+        src="/swetha_solutions_logo.png"
+        alt="Swetha Solutions"
+        style={{
+          height: "38px",
+          width: "auto",
+          objectFit: "contain",
+          display: "block",
+        }}
+      />
+    </div>
   );
 }
 

@@ -4,20 +4,29 @@ import React from "react";
 import { useServices } from "../context/ServicesContext";
 import Link from "next/link";
 
-// Crisp Inline SVG Logo Component for Footer
+// Crisp Logo Component for Footer with White Background
 function Logo({ className = "", light = false }) {
   return (
-    <img
-      src="/swetha_solutions_logo.png"
-      alt="Swetha Solutions"
-      className={`nav-logo-img ${className}`}
+    <div
       style={{
-        height: "56px",
-        width: "auto",
-        objectFit: "contain",
-        display: "block"
+        backgroundColor: "#ffffff",
+        padding: "6px 14px",
+        borderRadius: "8px",
+        display: "inline-block",
       }}
-    />
+    >
+      <img
+        src="/swetha_solutions_logo.png"
+        alt="Swetha Solutions"
+        className={`nav-logo-img ${className}`}
+        style={{
+          height: "44px",
+          width: "auto",
+          objectFit: "contain",
+          display: "block",
+        }}
+      />
+    </div>
   );
 }
 
@@ -29,7 +38,9 @@ export default function GlobalFooter() {
       <footer id="contact" className="footer">
         <div className="footer-container">
           <div className="footer-brand">
-            <Logo light={true} className="footer-logo-svg" />
+            <Link href="/" style={{ display: "inline-block" }}>
+              <Logo light={true} className="footer-logo-svg" />
+            </Link>
             <p className="footer-desc mt-4">
               We are a professional Web Design & Digital Marketing agency in Hyderabad, delivering creative solutions that help businesses grow online.
             </p>
